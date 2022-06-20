@@ -4,19 +4,19 @@
 user function OPERAMATE() 
 
   /*
-  Private nNum1 := 20 // Private - Não é visível em outras funções USER function, somente em static além da função atual.
+  Private nNum1 := 20 // Private - NÃ£o Ã© visÃ­vel em outras funÃ§Ãµes USER function, somente em static alÃ©m da funÃ§Ã£o atual.
   Private nNum2 := 10
   */
   
-  // Operadores matemáticos
-  Static nNum1 := 20 // Visível em outras funções user.
+  // Operadores matemÃ¡ticos
+  Static nNum1 := 20 // VisÃ­vel em outras funÃ§Ãµes user.
   Static nNum2 := 10
   
   MsgAlert(nNum1 + nNum2)
   MsgAlert(nNum1 - nNum2)
   MsgAlert(nNum1 * nNum2)
   MsgAlert(nNum1 / nNum2) 
-  MsgAlert(nNum1 % nNum2) // Resto da divisão
+  MsgAlert(nNum1 % nNum2) // Resto da divisÃ£o
 
 return
 
@@ -25,10 +25,10 @@ user function OPERAREL() // Operadores relacionais
   MsgAlert(nNum1 < nNum2) // Menor
 
   MsgAlert(nNum1 > nNum2) // Maior
-  // Em outras linguagens o igual é receber, no ADVPL é o := 
-  MsgAlert(nNum1 = nNum2) // Compara se é igual
+  // Em outras linguagens o igual Ã© receber, no ADVPL Ã© o := 
+  MsgAlert(nNum1 = nNum2) // Compara se Ã© igual
 
-  MsgAlert(nNum1 == nNum2) // Exatamente igual, usado mais para comparação de caracteres
+  MsgAlert(nNum1 == nNum2) // Exatamente igual, usado mais para comparaÃ§Ã£o de caracteres
 
   MsgAlert(nNum1 <= nNum2) // Menor igual
 
@@ -38,9 +38,9 @@ user function OPERAREL() // Operadores relacionais
 
 return
 
-user function OPERATRI() // Operadores de atribuição
+user function OPERATRI() // Operadores de atribuiÃ§Ã£o
 
-  nNum1 := 10 // Atribuição simples
+  nNum1 := 10 // AtribuiÃ§Ã£o simples
   nNum1 += nNum2 // nNum1 = nNum1 + nNum2
   nNum1 -= nNum2 // nNum1 = nNum1 - nNum2
   nNum1 *= nNum2 // nNum1 = nNum1 * nNum2
