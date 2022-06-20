@@ -1,12 +1,12 @@
 #INCLUDE "TOTVS.CH"
 
-//ESTRUTURA de repetição FOR
+//ESTRUTURA de repetiÃ§Ã£o FOR
 user function ESTRUFOR() 
 
   Local nCount
   Local nNum := 0
 
-  // Para de 0 a 4 faça, Some o valor de nCount nele mesmo, repita.
+  // Para de 0 a 4 faÃ§a, Some o valor de nCount nele mesmo, repita.
   for nCount := 0 to 4
 
     nNum += nCount
@@ -22,7 +22,7 @@ user function ESTRUFOR()
 
   nNum := 0 // Reseta o valor do nNum para nova contagem
 
-  // Para de 0 a 4, de 2 em 2 faça, soma a var nNum a ela mesma, repita
+  // Para de 0 a 4, de 2 em 2 faÃ§a, soma a var nNum a ela mesma, repita
   for nCount := 0 to 4 step 2 // Incrementa 2 a cada next
 
     nNum += nCount
